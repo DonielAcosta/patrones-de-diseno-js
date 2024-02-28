@@ -44,9 +44,7 @@ class Singleton {
   }
 }
 
-/**
- * Main function
- */
+
 function appSingleton() {
   console.log('--- [JS] Calling appSingleton ---\n');
   const singleton1 = Singleton.getInstance('version-1');
@@ -64,8 +62,8 @@ function appSingleton() {
     }`
   );
 
-  // Let's verify if the versions are equal too
-  console.log(`singleton1 version: ${singleton1.version}`);
+  conso
+  // Let's verify if the versions are equal toole.log(`singleton1 version: ${singleton1.version}`);
   console.log(`singleton2 version: ${singleton2.version}`);
   console.log(`singleton3 version: ${singleton3.version}`);
 }
